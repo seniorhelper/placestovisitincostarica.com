@@ -1,0 +1,2 @@
+# placestovisitincostarica.com
+placestovisitincostarica.com
