@@ -1,5 +1,5 @@
-# robots.txt — homeforsalecostarica.com
-# Costa Rica real estate authority site. AI crawlers welcome.
+# robots.txt — placestovisitincostarica.com
+# Costa Rica travel guide. AI crawlers welcome.
 
 User-agent: *
 Allow: /
@@ -56,4 +56,4 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
-Sitemap: https://homeforsalecostarica.com/sitemap.xml
+Sitemap: https://placestovisitincostarica.com/sitemap.xml
