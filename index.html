@@ -348,6 +348,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8629GHFJ4K"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8629GHFJ4K');</script>
 <script>(function(){function s(n,p){try{gtag('event',n,p)}catch(e){}}document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a)s('phone_click',{phone_number:a.getAttribute('href').slice(4),link_text:(a.textContent||'').trim().slice(0,60)})},true);document.addEventListener('submit',function(e){var f=e.target;if(!f||f.getAttribute('role')==='search'||/search/i.test(f.id+' '+f.className+' '+(f.action||'')))return;var id=f.id||f.getAttribute('name')||f.className||'form';if(/estimat|calc/i.test(id+' '+(f.action||'')))s('estimator_use',{form_id:id});s('generate_lead',{form_id:id})},true);window.etAB=function(n,v){var k='etab_'+n,x;try{x=localStorage.getItem(k)}catch(e){}if(!x||v.indexOf(x)<0){x=v[Math.floor(Math.random()*v.length)];try{localStorage.setItem(k,x)}catch(e){}}s('ab_view',{experiment:n,variant:x});try{gtag('set','user_properties',{['ab_'+n]:x})}catch(e){}document.documentElement.setAttribute('data-ab-'+n,x);return x}})();</script>
+<style id="egx-css">.egx{max-width:980px;margin:2.2rem auto;padding:1.4rem 1.2rem;border:1px solid rgba(0,0,0,.12);border-radius:14px;background:#fff;color:#1b2730}.egx h2,.egx h3{margin:0 0 .4rem;font-size:1.35rem;line-height:1.25;color:#1b2730}.egx p{margin:0 0 .8rem;color:#3b4852;font-size:.98rem}.egx .eg-widget{min-height:280px}.egx .egx-disc{font-size:.82rem;color:#55626c;margin:.8rem 0 0}.egx .egx-disc a{color:inherit;text-decoration:underline}@media(max-width:600px){.egx{margin:1.6rem 12px;padding:1rem .8rem}.egx .eg-widget{min-height:400px}}</style>
 </head>
 <body>
 
@@ -630,7 +631,14 @@
   </section>
 
   <!-- ============ WILDLIFE ============ -->
-  <section class="wild-section">
+  
+<section class="egx" aria-label="Find a place to stay near your first stop">
+  <h2>Find a place to stay near your first stop</h2>
+  <p>Picked your regions? Search La Fortuna, Monteverde, Manuel Antonio, Tamarindo or Puerto Viejo for your dates.</p>
+  <div class="eg-widget" data-widget="search" data-program="us-expedia" data-lobs="stays" data-network="pz" data-camref="1100l5QSrc" data-pubref="pvcr-regions"></div>
+  <p class="egx-disc"><strong>Affiliate disclosure:</strong> Places to Visit in Costa Rica is part of the Expedia Group affiliate program. If you book through this search, we may earn a commission at no extra cost to you. Prices and availability come from Expedia and change often. It does not affect which places we write about. <a href="/privacy/#affiliate">How we make money</a>.</p>
+</section>
+<section class="wild-section">
     <div class="container">
       <div class="section-label">🐾 <span data-en="What You'll See" data-es="Qué Verás">What You'll See</span></div>
       <h2 data-en="The Wildlife That Makes Costa Rica Famous" data-es="La Fauna que Hace Famosa a Costa Rica">The Wildlife That Makes Costa Rica Famous</h2>
@@ -868,7 +876,8 @@
       <p data-en="© 2026 PlacesToVisitInCostaRica.com — All rights reserved." data-es="© 2026 PlacesToVisitInCostaRica.com — Todos los derechos reservados.">© 2026 PlacesToVisitInCostaRica.com — All rights reserved.</p>
       <p class="powered-by">🌴 <span data-en="Powered by" data-es="Desarrollado por">Powered by</span> <a href="https://www.eyetoad.com" target="_blank" rel="nofollow noopener">Eye To Ad Media</a> &nbsp;·&nbsp; <span data-en="Digital Marketing &amp; SEO" data-es="Marketing Digital y SEO">Digital Marketing &amp; SEO</span></p>
     </div>
-  </footer>
+  <p style="text-align:center;font-size:.85rem;margin:14px 0"><a href="/about/" style="color:inherit">About</a> &middot; <a href="/contact/" style="color:inherit">Contact</a> &middot; <a href="/privacy/" style="color:inherit">Privacy &amp; affiliate disclosure</a></p>
+</footer>
 
   <!-- ============ JSON-LD ============ -->
   <script type="application/ld+json">
@@ -1287,5 +1296,6 @@ fetch('https://formsubmit.co/ajax/'+addr(f),{method:'POST',headers:{Accept:'appl
 });})(fs[j]);
 })();
 </script>
+<script class="eg-widgets-script" src="https://creator.expediagroup.com/products/widgets/assets/eg-widgets.js" defer></script>
 </body>
 </html>
